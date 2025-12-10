@@ -19,7 +19,7 @@ const Hero = () => {
         <p className="text-xs font-medium">Trusted by 10k+ people</p>
       </div>
       <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl">
-        Turning imagination info{" "}
+        Turning imagination info
         <span
           className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea]
       bg-clip-text text-transperent"
@@ -32,6 +32,14 @@ const Hero = () => {
         Creating meaningful connetions and turning big ideas into interactive
         digital experiances.
       </p>
+      <div className="relative">
+        <img src={assets.hero_img} alt="" className="w-full max-w-6xl" />
+        <img
+          src={assets.bgImage1}
+          alt=""
+          className="absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-1 dark:hidden"
+        />
+      </div>
     </div>
   );
 };
